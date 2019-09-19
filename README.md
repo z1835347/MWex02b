@@ -3,7 +3,7 @@
     1. PetName
     1. OwnerEmail
 1. Functional Dependencies
-    1. PetName -> (PetType, PetBreed, PetDOB, Service, Date, Charge)
+    1. PetName -> (PetType, PetBreed, PetDOB, Service, Date, Charge, OwnerEmail)
     1. OwnerEmail -> (OwnerFirstName, OwnerLastName, OwnerPhone)
     
 OwnerEmail | PetName | PetType | PetBreed | PetDOB | Service | Date | Charge
